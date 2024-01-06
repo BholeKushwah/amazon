@@ -33,7 +33,7 @@ p {
 #header-main {
     width: 100%;
     display: inline-block;
-    background-color: #fafafa;
+    background-color: red;
 }
 
 .header-top {
