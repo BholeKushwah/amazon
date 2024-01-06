@@ -1,0 +1,238 @@
+
+@media screen and (max-width:1399px) {
+    .item-deatils ul {
+        max-width: 446px;
+
+    } 
+  
+}
+@media screen and (max-width:1199px) {
+    .dashboard ul li a {
+        font-size: 13px;
+        padding: 8px 5px;
+    }  
+    .form-select {
+        width: 28%;
+    }
+
+    button.setting {
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+    }
+    .all-items li {
+        font-size: 12px !important;
+    }
+    .all-items ul li del{
+        font-size: 12px;
+    }
+    .all-items ul li .fa.fa-circle{
+        font-size: 4px !important;
+    }
+    .all-items ul li h3 span .fa.fa-circle{
+        font-size: 7px !important;
+    }
+    .all-items ul li h3 {
+        font-size: 13px;
+    }
+    .all-items ul li del .fa {
+        font-size: 12px;
+        margin-right: 4px;
+    }
+    .ethereum-main.visitors .ethereum-content h3 {
+        font-size: 30px;
+    }
+    .ethereum-main.visitors .ethereum-content h4 {
+        font-size: 14px;
+        padding: 7px 0 10px 0;
+    }
+    .impression ul li img {
+        max-width: 50px;
+        height: auto;
+        object-fit: contain;
+    }
+    #footer-main {
+        padding: 20px 0;
+    }
+    .copyright-content p {
+        font-size: 16px;
+    }
+    .btn-main{
+        font-size: 14PX;
+    }
+}
+@media screen and (max-width: 991px) {
+    .impression ul{
+        flex-wrap: wrap;
+    }
+    .impression ul li {
+        width: 50%;
+        border-bottom: 1px solid #dee1e6;
+    }
+    .impression ul li:nth-child(3){
+        border-bottom: 0;
+    }
+    .impression ul li:nth-child(2){
+        border-right: 0;
+    }
+    .ethereum-main img {
+        width: 100%;
+        object-fit: contain;
+    }
+    .form-select {
+        width: 37%;
+    }
+    .item-deatils ul {
+        max-width: 550px;
+    }
+    .item-deatils ul li:nth-child(1) {
+        max-width: 191px;
+    }
+    .item-deatils ul li:nth-child(2) {
+        max-width: 100px;
+    }
+    .item-deatils ul li:nth-child(3) {
+        max-width: 173px;
+    }
+    .dashboard ul {
+        display: flex;
+        position: fixed;
+        justify-content: center;
+        flex-direction: column;
+        background: #fff;
+        max-width: 320px;
+        width: 100%;
+        z-index: 9999999;
+        top: 0;
+        left: -100%;
+        height: 100vh;
+        box-shadow: 0 0 6px #ddd;
+        border-right: 0;
+        transition: all 0.4s;
+        /* transition: all ease 0.5s; */
+    }
+    .dashboard ul li{
+        border-right: none;
+    }
+    
+    .dashboard ul li a {
+        padding: 15px 5px;
+        text-align: justify;
+        border-bottom: 1px solid #ececec;
+    }
+    .dashboard ul li:last-child a{
+        border-bottom: 0;
+    }
+    .dashboard ul .bar {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        width: 30px;
+        z-index: 111;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bar {
+        font-size: 20px;
+        text-align: end;
+        margin-right: 10px;
+    }
+    .header-bottom.active .dashboard ul{
+        transition: all ease 0.5s;
+        left: 0;
+    }
+    .dashboard{
+        border: 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .notifaction {
+        padding-top: 10px;
+    }
+    .form-select{
+        width: 24%;
+    }
+    .impression ul li span {
+        font-size: 14px;
+        padding-bottom: 0;
+    }
+    .item-deatils ul li:nth-child(1){
+        max-width: 97px;
+    }
+    .item-deatils ul li:nth-child(2){
+        max-width: 70px;
+    }
+    .ethereum-content p{
+        max-width: inherit;
+    }
+    .ethereum-content {
+        margin: inherit;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    .ethereum-content p {
+        max-width: inherit;
+    }
+    
+}
+@media screen and (max-width: 575px) {
+    .form-select {
+        width: 37%;
+    }
+    .dashboard-section-title h2 {
+        font-size: 16px;
+    }
+    .impression ul li{
+        width: 100%;
+    }
+    .copyright-content p{
+        font-size: 14px;
+    }
+    #footer-main {
+        padding: 15px 0;
+    }
+    .impression ul li:nth-child(3){
+        border-bottom: 1px solid #dee1e6;
+        
+    }
+    .impression ul li{
+        border-right: none;
+    }
+    .impression ul li span {
+        font-size: 13px;
+        
+    }
+    .impression ul li h3 {
+        font-size: 20px;
+    }
+    .all-items ul {
+
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 15px;
+    }
+    .all-items ul li {
+        margin: 3px 0;
+    }
+    .item-deatils ul {
+        padding: 0 15px;
+        justify-content: space-between;
+    }
+    .item-deatils ul li {
+        max-width: fit-content !important;
+    }
+    .ethereum-content {
+        padding: 30px 15px 75px 15px;
+        width: 100%;
+    }
+    .ethereum-main.visitors .ethereum-content {
+        padding: 30px 15px 65px 15px;
+    }
+    .product-parchesh-main {
+        margin-bottom: 20px;
+    }
+} 
